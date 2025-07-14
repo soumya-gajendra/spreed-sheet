@@ -124,7 +124,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-white p-4 border-4 border-pink-500">
-      {/* Toolbar */}
+    
       <div className="flex flex-wrap justify-between items-center border-b pb-3 mb-4 text-sm">
         <div className="text-gray-500 mb-2 sm:mb-0">
           Workspace &gt; Folder 2 &gt; <span className="font-semibold text-gray-700">Spreadsheet 3</span>
@@ -169,7 +169,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* Sheet Title + Controls */}
+     
       <div className="mb-4 flex flex-wrap justify-between items-center gap-2">
         <input
           type="text"
@@ -198,7 +198,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* Tabs */}
+    
       <div className="flex gap-4 mb-4 border-b pb-2 overflow-x-auto">
         {"All Orders,Pending,Reviewed,Arrived,Sheet1,Sheet2".split(",").map((tab) => (
           <button
@@ -213,7 +213,7 @@ const App = () => {
         ))}
       </div>
 
-      {/* Table */}
+    
       <div className="overflow-x-auto">
         <table className="min-w-full border text-sm">
           <thead className="bg-gray-100">
@@ -283,7 +283,7 @@ const App = () => {
               </tr>
             ))}
 
-            {/* Extra Row for Input */}
+           
             <tr>
               <td className="px-4 py-2 border-b text-gray-400 text-xs">{data.length + 1}</td>
               <td className="px-4 py-2 border-b" colSpan={9}>
